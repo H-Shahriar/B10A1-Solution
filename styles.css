@@ -1,0 +1,422 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-image: url("/assets/Hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+    border-radius: 10px;
+    position: center;
+}
+
+.icon {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 100px; /* Adjust this value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h1 {
+    font-size: 2em;
+    margin: 70px 0 10px; /* Adjust top margin to account for the icon */
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.contact {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color:black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+
+.why-web-development {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    border-radius: 20px;
+    margin: 200px;
+}
+
+.why-web-development h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.why-web-development p {
+    font-size: 1em;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: left;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.card.reverse {
+    flex-direction: row-reverse;
+}
+
+.card-icon {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.card.reverse .card-icon {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.card-content {
+    flex: 1;
+}
+
+.card-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.learn-more {
+    padding: 10px 20px;
+    font-size:medium;
+    color: rgb(0, 0, 0);
+    background-color:white;
+    border-color: black;
+    /* border-radius: 5px; */
+  
+}
+
+.inspiration {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.inspiration h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.inspiration p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 450px; /* Adjust height as needed */
+    border: none;
+}
+
+.current-target {
+    padding: 40px;
+    text-align: center;
+}
+
+.current-target h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.current-target p {
+    font-size: 1em;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.target-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.target-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    max-width: 250px;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.target-card.html {
+    background-color: #fff5f5; /* Light red background */
+}
+
+.target-card.css {
+    background-color: #f5f9ff; /* Light blue background */
+}
+
+.target-card.js {
+    background-color: #fffdf5; /* Light yellow background */
+}
+
+.target-icon {
+    width: 40px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.target-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.target-card p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.target-card button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #333;
+    background-color: white;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.target-card button:hover {
+    background-color: #333;
+    color: white;
+}
+
+.next-target {
+    padding: 40px;
+    text-align: center;
+}
+
+.next-target h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.next-target p {
+    font-size: 1em;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.target-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.target-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    width: 100%;
+    max-width: 800px;
+}
+
+.target-icon {
+    width: 50px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.target-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.target-card p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.target-card button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #333;
+    background-color: white;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.target-card button:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* Support section styles */
+.support {
+    background-image: url(./assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    margin: 100px;px;
+}
+
+.support::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.support h2,
+.support p {
+    position: relative;
+    z-index: 2;
+}
+
+.support h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.support p {
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
+.support-form {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.support-form input {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    max-width: 100%;
+}
+
+.support-form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #333;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.support-form button:hover {
+    background-color: #555;
+    color: white;
+}
+
+footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1em;
+    color: #333;
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
