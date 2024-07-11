@@ -7,7 +7,7 @@ body, html {
 }
 
 .container {
-    background-image: url("/assets/Hero-bg.png");
+    background-image: url("./assets/Hero-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -28,14 +28,14 @@ body, html {
     height: auto;
     margin-bottom: 20px;
     position: absolute;
-    top: 100px; /* Adjust this value as needed */
+    top: 100px; 
     left: 50%;
     transform: translateX(-50%);
 }
 
 h1 {
     font-size: 2em;
-    margin: 70px 0 10px; /* Adjust top margin to account for the icon */
+    margin: 70px 0 10px; 
 }
 
 p {
@@ -61,7 +61,7 @@ p {
     padding: 40px;
     background-color: #f9f9f9;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     border-radius: 20px;
     margin: 200px;
 }
@@ -126,7 +126,7 @@ p {
     color: rgb(0, 0, 0);
     background-color:white;
     border-color: black;
-    /* border-radius: 5px; */
+   
   
 }
 
@@ -134,7 +134,7 @@ p {
     padding: 40px;
     background-color: #f9f9f9;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     border-radius: 10px;
     margin: 20px;
 }
@@ -155,12 +155,12 @@ p {
     margin: 0 auto;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .video-container iframe {
     width: 100%;
-    height: 450px; /* Adjust height as needed */
+    height: 450px; 
     border: none;
 }
 
@@ -198,15 +198,15 @@ p {
 }
 
 .target-card.html {
-    background-color: #fff5f5; /* Light red background */
+    background-color: #fff5f5; 
 }
 
 .target-card.css {
-    background-color: #f5f9ff; /* Light blue background */
+    background-color: #f5f9ff; 
 }
 
 .target-card.js {
-    background-color: #fffdf5; /* Light yellow background */
+    background-color: #fffdf5; 
 }
 
 .target-icon {
@@ -310,7 +310,7 @@ p {
     color: white;
 }
 
-/* Support section styles */
+
 .support {
     background-image: url(./assets/handshake.jpg);
     background-size: cover;
@@ -321,7 +321,7 @@ p {
     color: white;
     position: relative;
     overflow: hidden;
-    margin: 100px;px;
+    margin: 100px;
 }
 
 .support::before {
@@ -331,7 +331,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    background: rgba(0, 0, 0, 0.5); 
     z-index: 1;
     border-radius: 10px;
 }
